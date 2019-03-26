@@ -80,7 +80,9 @@ Process Example - init and doInitialSchedule method
  
  
  Scheduling based on Shortest Job First (SJF)
+ 
  Adding a new variable - priority - for Trucks and schedule based on priority 
+ 
  Scheduling based on Round Robin Scheduling
  
     
