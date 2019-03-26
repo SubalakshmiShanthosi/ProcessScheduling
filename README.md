@@ -75,7 +75,14 @@ Process Example - init and doInitialSchedule method
     FIFO scheduling.
     Changing the scheduling - change the CPU Scheduling (SJF) - unwind packets find one with least execution time.
     Task code changed to have mean Execution Time.
-    
+ 
+ #March 26 2019
+ 
+ 
+ Scheduling based on Shortest Job First (SJF)
+ Adding a new variable - priority - for Trucks and schedule based on priority 
+ Scheduling based on Round Robin Scheduling
+ 
     
     
     
