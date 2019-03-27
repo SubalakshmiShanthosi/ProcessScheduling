@@ -76,16 +76,37 @@ Process Example - init and doInitialSchedule method
     Changing the scheduling - change the CPU Scheduling (SJF) - unwind packets find one with least execution time.
     Task code changed to have mean Execution Time.
  
- #March 26 2019
+ # March 26 2019
  
  
- Scheduling based on Shortest Job First (SJF)
+     Scheduling based on Shortest Job First (SJF)
  
- Adding a new variable - priority - for Trucks and schedule based on priority 
+     Adding a new variable - priority - for Trucks and schedule based on priority 
  
- Scheduling based on Round Robin Scheduling
+     Scheduling based on Round Robin Scheduling
+     
+     Scheduling Realtime System based on Earlier Deadline First (EDF)
+     
+     Scheduling Realtime System based on Periodic Scheduling
+
+ # March 27 2019
  
-    
+ # Scheduling in Round Robin Mechanism 
+ 
+             1. No Change in arrival pattern.
+             2. Set timeframe.
+             3. Execute FIFO job dequeued with timeframe 
+             4. If a task is preempted as it is not fully executed - pushed back to the queue.
+             5. Timer - hold() 
+             6. Uniform timespan for all trucks - make uniform distribution work - 1 , 1 as lower and upper bound 
+             7. Adding Slot Time 
+             8. Initialize SlotTime - init() -  
+             9. Finding the execution time remaining - push it back to queue 
+             10. Take next Packet manipulate it .
+             11. Change in execution time - Math.random() % 100  in Task Constructor
+  
+ 
+             
     
     
     
