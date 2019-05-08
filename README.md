@@ -104,6 +104,10 @@ Process Example - init and doInitialSchedule method
              9. Finding the execution time remaining - push it back to queue 
              10. Take next Packet manipulate it .
              11. Change in execution time - Math.random() % 100  in Task Constructor
+             
+ # May 8 2019
+ 
+ # Scheduling in Earliest Deadline First (EDF) : TODO
   
  
              
